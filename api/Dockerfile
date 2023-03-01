@@ -3,7 +3,7 @@ FROM node:latest
 # Create app directory
 WORKDIR /app
 # Install app dependencies
-COPY package*.json ./
+COPY package*.json .
 RUN npm install
 # Build app
 COPY . .
