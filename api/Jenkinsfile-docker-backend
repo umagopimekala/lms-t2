@@ -13,14 +13,7 @@ pipeline {
 
     stages {
         
-         stage('Creating  new docker network') {
-            steps {
-            
-                sh 'docker network rm lmsnetwork'
-                
-            }
-        }
-
+        
         stage('Building the docker image') {
             steps {
                 sh 'cd api && docker build -t mubeen507/backend-lms .'
