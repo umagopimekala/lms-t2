@@ -17,7 +17,7 @@ pipeline {
             steps {
             
                 sh 'docker network rm lmsnetwork'
-                sh 'docker network create -d bridge lmsnetwork'
+                
             }
         }
 
