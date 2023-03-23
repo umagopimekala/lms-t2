@@ -5,9 +5,9 @@ pipeline {
 
     environment {
 
-    DOCKERHUB_CREDENTIALS = credentials('umagopi')
+    DOCKERHUB_CREDENTIALS = credentials('docker')
      registry = "umagopimekala/backend-lms"
-        registryCredential = 'umagopi'
+        registryCredential = 'docker'
         dockerImage = ''
     }
 
