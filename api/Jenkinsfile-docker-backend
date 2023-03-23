@@ -7,7 +7,7 @@ pipeline {
 
     DOCKERHUB_CREDENTIALS = credentials('docker')
      registry = "umagopimekala/backend-lms"
-        registryCredential = 'docker'
+        registryCredential = 'umagopi'
         dockerImage = ''
     }
 
